@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial - scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Contact Us</h1>
+     
+    </section>
+       <!-----------contact us------->
+       <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15831.125399709228!2d79.8503682017326!3d7.265706038417258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e912f9461e87%3A0x3b716e841976e871!2sKochchikade!5e0!3m2!1sen!2slk!4v1739898788515!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+       </section>
+
+       <section class="contact-us">
+        <div class="row">
+          <div class="contact-col">
+            <div>
+              <i class="fa fa-home"></i>
+              <span>
+                <h5>no/93/3, Madampe</h5>
+                <p>kandy , sri lanka</p>
+              </span>
+            </div>
+
+            <div>
+              <i class="fa fa-phone"></i>
+              <span>
+                <h5>+94 77  342 473765</h5>
+                <p>kandy , sri lanka</p>
+              </span>
+            </div>
+
+
+            <div>
+              <i class="fa fa-envelope-o"></i>
+              <span>
+                <h5>kave@gmail.com</h5>
+                <p>mail us bro</p>
+              </span>
+            </div>
+          </div>
+          <div class="contact-col">
+            <form action="form-hadeler.php" method="post">
+              <input type="text" name="name" placeholder="Enter Your name "required>
+              <input type="email" name="email" placeholder="Enter Email Address "required>
+              <input type="text"  name="subject" placeholder="Enter Your Subject "required>
+             <textarea rows="8"  name="message" placeholder="Message" required></textarea>
+             <button type="submit" class="hero-btn red-btn">
+              send Message
+             </button>
+            </form>
+          </div>
+
+        </div>
+       </section>
+      
+
+    
+   <!-----------footer------->
+
+    <section class="footer">
+      <h4>Contact Us</h4>
+      <p>
+        At the top of their About Us page, there is a CTA button for newsletter
+        subscriptions. <br />
+        Along with other CTAs on the page, they also linked <br />their app's
+        Google Play and App.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <p>Made with <i class="fa-brands fa-youtube"></i> by Easy Tutorials</p>
+    </section>
+
+    <!-----------Javascript for toggle menu------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
